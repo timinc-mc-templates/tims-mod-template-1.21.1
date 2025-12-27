@@ -1,8 +1,8 @@
-package {{package}}.{{lowerCase sideMod}}.neoforge
+package {{modPackage}}.{{lowerCase sideMod}}.neoforge
 
 import net.neoforged.fml.common.Mod
-import {{package}}.{{lowerCase sideMod}}.{{upperCase sideMod}}
-import {{package}}.{{lowerCase sideMod}}.MOD_ID
+import {{modPackage}}.{{lowerCase sideMod}}.{{upperCase sideMod}}
+import {{modPackage}}.{{lowerCase sideMod}}.MOD_ID
 import us.timinc.mc.cobblemon.timcore.neoforge.AbstractNeoForgeMod
 
 @Mod(MOD_ID)
