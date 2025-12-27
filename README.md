@@ -1,3 +1,3 @@
-# {{sideMod}}
+# {{modName}}
 
 If I'm not filled out, riot.

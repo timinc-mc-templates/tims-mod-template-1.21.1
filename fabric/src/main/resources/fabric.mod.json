@@ -13,7 +13,7 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "{{modPackage}}.{{lowerCase sideMod}}.fabric.{{upperCase sideMod}}Fabric"
+        "value": "{{modPackage}}.{{lowerCase modName}}.fabric.{{upperCase modName}}Fabric"
       }
     ]
   },

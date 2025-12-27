@@ -1,13 +1,13 @@
-package {{modPackage}}.{{lowerCase sideMod}}
+package {{modPackage}}.{{lowerCase modName}}
 
 import us.timinc.mc.cobblemon.timcore.AbstractConfig
 import us.timinc.mc.cobblemon.timcore.AbstractMod
 
-const val MOD_ID: String = "{{snakeCase sideMod}}"
+const val MOD_ID: String = "{{snakeCase modName}}"
 
-object {{upperCase sideMod}} : AbstractMod<{{upperCase sideMod}}.{{upperCase sideMod}}Config>(MOD_ID, {{upperCase sideMod}}Config::class.java) {
+object {{upperCase modName}} : AbstractMod<{{upperCase modName}}.{{upperCase modName}}Config>(MOD_ID, {{upperCase modName}}Config::class.java) {
 
-    class {{upperCase sideMod}}Config : AbstractConfig() {
+    class {{upperCase modName}}Config : AbstractConfig() {
     }
 
     init {

@@ -1,9 +1,9 @@
-package {{modPackage}}.{{lowerCase sideMod}}.fabric
+package {{modPackage}}.{{lowerCase modName}}.fabric
 
-import {{modPackage}}.{{lowerCase sideMod}}.{{upperCase sideMod}}
+import {{modPackage}}.{{lowerCase modName}}.{{upperCase modName}}
 import us.timinc.mc.cobblemon.timcore.fabric.AbstractFabricMod
 
-object {{upperCase sideMod}}Fabric : AbstractFabricMod({{upperCase sideMod}}) {
+object {{upperCase modName}}Fabric : AbstractFabricMod({{upperCase modName}}) {
     override fun onInitialize() {
     }
 }

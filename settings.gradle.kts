@@ -1,4 +1,4 @@
-rootProject.name = "{{kebabCase sideMod}}"
+rootProject.name = "{{kebabCase modName}}"
 
 pluginManagement {
     repositories {
