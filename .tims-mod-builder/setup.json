@@ -1,0 +1,76 @@
+{
+  "title": "{{kebabCase modName}}",
+  "questions": [
+    {
+      "type": "input",
+      "name": "modName",
+      "message": "What is the name of your mod?",
+      "requirements": [
+        {
+          "type": "regex",
+          "value": "^[\\w\\s_-]+$",
+          "message": "Mod name can only contain letters, numbers, spaces, underscores, and hyphens."
+        }
+      ],
+      "trim": true,
+      "required": true
+    },
+    {
+      "type": "input",
+      "name": "modDescription",
+      "message": "Provide a short description of your mod:",
+      "trim": true,
+      "requirements": [
+        {
+          "type": "length",
+          "max": 255,
+          "message": "Description must be at most 255 characters."
+        }
+      ],
+      "required": true
+    },
+    {
+      "type": "input",
+      "name": "authorName",
+      "message": "Who should be credited as the author of this mod?",
+      "trim": true,
+      "required": true,
+      "memorable": true
+    },
+    {
+      "type": "input",
+      "name": "modPackage",
+      "message": "What is the package name for your mod (e.g., com.yourname.modname)?",
+      "trim": true,
+      "requirements": [
+        {
+          "type": "regex",
+          "value": "^[a-zA-Z_][a-zA-Z0-9_.]*$",
+          "message": "Package name must start with a letter or underscore and can only contain letters, numbers, underscores, and dots."
+        }
+      ],
+      "required": true,
+      "memorable": true
+    },
+    {
+      "type": "input",
+      "name": "remoteRepoOrg",
+      "message": "What is the GitHub organization or username for your mod's repository?",
+      "trim": true,
+      "memorable": true
+    },
+    {
+      "type": "input",
+      "name": "discordInvite",
+      "message": "What is the Discord invite link for your mod's community (leave blank if none)?",
+      "trim": true,
+      "memorable": true
+    },
+    {
+      "type": "confirm",
+      "name": "useKotlin",
+      "message": "Would you like to use Kotlin in your mod?",
+      "memorable": true
+    }
+  ]
+}
